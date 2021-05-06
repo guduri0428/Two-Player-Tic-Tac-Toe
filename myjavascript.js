@@ -14,6 +14,7 @@ var cp='btn1'
 
 var head=document.getElementById('head')
 var restart=document.getElementById('restart')
+var guduri =document.getElementById('guduri')
 console.log(head);
 //heading color change function
 function getRandomcolor() {
@@ -29,6 +30,7 @@ function changeColor() {
   head.style.color=color
   //p1.style.color=color
 //  p2.style.color=color
+  guduri.style.color=color
   restart.style.color=color
 }
 setInterval("changeColor()",500)
